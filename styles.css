@@ -1,0 +1,132 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+header {
+    background-color: #343a40;
+    /* Màu header */
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    /* Đổi màu khung ảnh và tăng độ nét */
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: rgb(236, 236, 43);
+    text-decoration: none;
+    transition: font-size 0.3s, font-weight 0.3s;
+}
+
+nav ul li a:hover {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#detail {
+    padding: 20px;
+    margin-left: 500px;
+}
+
+#detail h2 {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(192, 128, 49);
+    text-align: center;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project a {
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project a:hover {
+    color: inherit;
+}
+
+.skills-row {
+    display: flex;
+}
+
+.skill {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.skill:last-child {
+    margin-right: 0;
+}
+
+footer {
+    background-color: #343a40;
+    /* Màu footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
